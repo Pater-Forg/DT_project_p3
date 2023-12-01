@@ -2,8 +2,6 @@
 #include "gtest/gtest.h"
 
 
-using namespace std;
-
 // ТЕСТЫ
 TEST(RandFloatTest, MaxMinEquality) {
     // тест 1
