@@ -1,4 +1,4 @@
-#include ".\Squirrel2\Squirrel2.h"
+#include "./Squirrel2/Squirrel2.h"
 #include "gtest/gtest.h"
 
 
