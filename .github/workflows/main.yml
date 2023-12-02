@@ -20,6 +20,6 @@ jobs:
     - name: execute_tests
       run: ./program.out
     - name: make_mpi
-      run: mpic++ ../../Squirrel2/Squirrel2.cpp -o Squirrel2.out
+      run: mpic++ ./Squirrel2/Squirrel2.cpp -o Squirrel2.out
     - name: mpi_run
       run: mpiexec -n 200 ./Squirrel2.out
